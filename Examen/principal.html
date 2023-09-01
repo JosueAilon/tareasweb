@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Primer Examen Parcial - Desarrollo Web UMG</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Primer Examen Parcial</h1>
+    <h6>Josue Emanuel Ailon Lopez, Carne 0904-20-18453</h6>
+    <h2>Desarrollo Web-UMG</h2>
+  </header>
+  <main>
+    <h3>Ingresa tu edad y género de película que deseas ver para recibir una recomendación</h3>
+    <label for="age">Edad:</label>
+    <input type="number" id="age" min="1" max="100">
+    <label for="genre">Género:</label>
+    <select id="genre">
+      <option value="accion">Acción</option>
+      <option value="drama">Drama</option>
+      <option value="comedia">Comedia</option>
+    </select>
+    <button onclick="suggestMovie()">Aceptar</button>
+    <div id="movieResult" class="hidden">
+      <h4>Recomendación:</h4>
+      <h5>Nombre de la película: <span id="movieTitle"></span></h5>
+      <p>Clasificación: <span id="movieRating"></span></p>
+      <p>Descripción: <span id="movieDescription"></span></p>
+      <img id="movieImage" src="" alt="Podría ser una pelicula :D">
+    </div>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>

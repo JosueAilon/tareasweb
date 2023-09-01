@@ -1,0 +1,70 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f7f7f7;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h3, h4, h5 {
+  color: #333;
+}
+
+h1, h2, h6 {
+  color: #fffafa;
+}
+
+label, button {
+  display: block;
+  margin: 1rem auto;
+  text-align: center;
+}
+
+button {
+  padding: 8px 16px;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #555;
+}
+
+#movieResult {
+  margin-top: 2rem;
+  padding: 1rem;
+  background-color: #f9f9f9;
+  border-radius: 4px;
+}
+
+#movieImage {
+  display: block;
+  margin: 0 auto;
+  width: 300px;
+  height: auto;
+}
+
+#age,
+#genre {
+  display: block;
+  margin: 0 auto;
+}
