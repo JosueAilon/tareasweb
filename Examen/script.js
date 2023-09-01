@@ -6,13 +6,13 @@ function suggestMovie() {
 
   if (age >= 18) {
     switch (genre) {
-      case "accion":
+      case "acciones":
         movieTitle = "Intellestelar";
         movieRating = "+18";
         movieDescription = "¡Bienvenidos a Intellestelar, tu destino definitivo para explorar el universo cinematográfico! En nuestra tienda de películas, te sumergirás en un cosmos de entretenimiento sin límites, donde cada título es una estrella en su propio sistema.";
         movieImage = "intellestelar.jpg";
         break;
-      case "drama":
+      case "dramas":
         movieTitle = "Rapidos y furiosos 6";
         movieRating = "T";
         movieDescription = "¡Prepárate para la adrenalina a toda velocidad con la película que cambió las reglas del juego! Rápidos y Furiosos te sumerge en un mundo de emocionantes carreras clandestinas, intrincadas intrigas y una acción sin límites.";
